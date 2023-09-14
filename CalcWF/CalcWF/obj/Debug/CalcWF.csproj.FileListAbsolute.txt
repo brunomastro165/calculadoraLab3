@@ -1,0 +1,10 @@
+C:\Users\Bruno\RiderProjects\CalcWF\CalcWF\bin\Debug\CalcWF.exe.config
+C:\Users\Bruno\RiderProjects\CalcWF\CalcWF\bin\Debug\CalcWF.exe
+C:\Users\Bruno\RiderProjects\CalcWF\CalcWF\bin\Debug\CalcWF.pdb
+C:\Users\Bruno\RiderProjects\CalcWF\CalcWF\obj\Debug\CalcWF.csproj.AssemblyReference.cache
+C:\Users\Bruno\RiderProjects\CalcWF\CalcWF\obj\Debug\CalcWF.csproj.SuggestedBindingRedirects.cache
+C:\Users\Bruno\RiderProjects\CalcWF\CalcWF\obj\Debug\CalcWF.Properties.Resources.resources
+C:\Users\Bruno\RiderProjects\CalcWF\CalcWF\obj\Debug\CalcWF.csproj.GenerateResource.cache
+C:\Users\Bruno\RiderProjects\CalcWF\CalcWF\obj\Debug\CalcWF.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\RiderProjects\CalcWF\CalcWF\obj\Debug\CalcWF.exe
+C:\Users\Bruno\RiderProjects\CalcWF\CalcWF\obj\Debug\CalcWF.pdb
