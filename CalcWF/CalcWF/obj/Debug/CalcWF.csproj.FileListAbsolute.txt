@@ -8,3 +8,14 @@ C:\Users\Bruno\RiderProjects\CalcWF\CalcWF\obj\Debug\CalcWF.csproj.GenerateResou
 C:\Users\Bruno\RiderProjects\CalcWF\CalcWF\obj\Debug\CalcWF.csproj.CoreCompileInputs.cache
 C:\Users\Bruno\RiderProjects\CalcWF\CalcWF\obj\Debug\CalcWF.exe
 C:\Users\Bruno\RiderProjects\CalcWF\CalcWF\obj\Debug\CalcWF.pdb
+D:\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\bin\Debug\CalcWF.exe.config
+D:\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\bin\Debug\CalcWF.exe
+D:\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\bin\Debug\CalcWF.pdb
+D:\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\obj\Debug\CalcWF.csproj.AssemblyReference.cache
+D:\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\obj\Debug\CalcWF.csproj.SuggestedBindingRedirects.cache
+D:\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\obj\Debug\CalcWF.Properties.Resources.resources
+D:\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\obj\Debug\CalcWF.csproj.GenerateResource.cache
+D:\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\obj\Debug\CalcWF.csproj.CoreCompileInputs.cache
+D:\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\obj\Debug\CalcWF.exe
+D:\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\obj\Debug\CalcWF.pdb
+D:\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\obj\Debug\CalcWF.Form1.resources

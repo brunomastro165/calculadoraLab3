@@ -204,7 +204,7 @@ namespace CalcWF
             return cantidadCerrados;
         }
 
-        public static void priorizarParentesis(string operación)
+        public static string priorizarParentesis(string operación)
         {
             List<String> resultado = new List<string>();
 
@@ -228,14 +228,16 @@ namespace CalcWF
 
                 //Console.WriteLine(hacerOperaciones(resultadoF));
                 //Console.WriteLine(resultadoF);
-                Console.WriteLine(operación);
+                //Console.WriteLine(operación);
                 Console.WriteLine(separarTérminos(operación));
+                return separarTérminos((operación));
             }
             else
             {
                 // string resultadoSP = separarTérminos(hacerOperaciones(operación));
                 //  Console.WriteLine(resultadoSP);
                 Console.WriteLine(separarTérminos(operación));
+                return separarTérminos((operación));
             }
             //Console.WriteLine(separarTérminos(operación));
 
