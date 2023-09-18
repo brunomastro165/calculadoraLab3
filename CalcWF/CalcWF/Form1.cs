@@ -45,7 +45,18 @@ namespace CalcWF
         private void Bigual_Click(object sender, EventArgs e)
         {
             fristTime = true;
-            EntradaDatos.Text = prueba.ingreso(EntradaDatos.Text);
+
+            try
+            {
+                EntradaDatos.Text = prueba.ingreso(EntradaDatos.Text);
+            }
+            catch (Exception exception)
+            {
+                EntradaDatos.Text = "Operación inválida";
+            }
+
+
+
         }
 
         private void Buno_Click(object sender, EventArgs e)

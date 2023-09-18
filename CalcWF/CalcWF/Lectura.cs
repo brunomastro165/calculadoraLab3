@@ -317,7 +317,7 @@ namespace CalcWF
                     if (num1 == 0 || num2 == 0)
                     {
                         Console.WriteLine("No es posible la división entre 0");
-                        return 0;
+                        throw new ArithmeticException("No es posible la división entre 0");
                     }
 
                     return num1 / num2;
