@@ -15,7 +15,7 @@ namespace CalcWF
             {
                 if (i == '(' || i == ')' || i == '0' || i == '1' || i == '2' || i == '3' || i == '4'
                     || i == '5' || i == '6' || i == '7' || i == '8' || i == '9' || i == '+' || i == '-'
-                    || i == '*' || i == '/')
+                    || i == '*' || i == '/' || i == ',')
                 {
 
                 }
@@ -128,8 +128,7 @@ namespace CalcWF
 
             return comprobacion;
         }
-
-
+        
         public static bool contarParentesis(String operación)
         {
             int contA = 0;
@@ -166,44 +165,7 @@ namespace CalcWF
                 return false;
             }
         }
-
-
-        public static List<int> ordenOperaciónParentesis(string operación)
-        {
-            List<int> cantidadAbiertos = new List<int>();
-            int cont = 0;
-            foreach (var i in operación)
-            {
-                if (i == '(')
-                {
-                    cantidadAbiertos.Add(cont);
-                    Console.WriteLine(cont);
-                }
-
-                cont++;
-            }
-
-            return cantidadAbiertos;
-        }
-
-        public static List<int> ordenOperaciónParentesisC(string operación)
-        {
-            List<int> cantidadCerrados = new List<int>();
-            int cont = 0;
-            foreach (var i in operación)
-            {
-                if (i == ')')
-                {
-                    cantidadCerrados.Add(cont);
-                    Console.WriteLine(cont);
-                }
-
-                cont++;
-            }
-
-            return cantidadCerrados;
-        }
-
+        
         public static string priorizarParentesis(string operación)
         {
             List<String> resultado = new List<string>();
@@ -245,7 +207,6 @@ namespace CalcWF
 
         public static string modificarOperación(string operación)
         {
-            //santo grial de las ideas
             if (operación.Contains("--"))
             {
                 operación = operación.Replace("--", "+");
@@ -262,7 +223,6 @@ namespace CalcWF
             {
                 operación = operación.Replace("-+", "+");
             }
-
             return operación;
 
         }
@@ -303,7 +263,7 @@ namespace CalcWF
             return resultado;
         }
 
-        public static int calcular(int num1, int num2, char operacion)
+        public static double calcular(double num1, double num2, char operacion)
         {
             switch (operacion)
             {
@@ -363,7 +323,7 @@ namespace CalcWF
                     }
                     else if (!simbol.Equals(' ') && n2S != "")
                     {
-                        n1S = calcular(int.Parse(n1S), int.Parse(n2S), simbol).ToString();
+                        n1S = calcular(double.Parse(n1S), double.Parse(n2S), simbol).ToString();
                         n2S = "";
                         simbol = ecuacion[i];
                         continue;
@@ -397,15 +357,13 @@ namespace CalcWF
             {
                 if (finalOperator.Equals(' '))
                 {
-                    return calcular(int.Parse(n1S), int.Parse(n2S), simbol).ToString();
+                    return calcular(double.Parse(n1S), double.Parse(n2S), simbol).ToString();
                 }
                 else
                 {
-                    return calcular(int.Parse(n1S), int.Parse(n2S), simbol).ToString() + finalOperator;
+                    return calcular(double.Parse(n1S), double.Parse(n2S), simbol).ToString() + finalOperator;
                 }
             }
-
-            return "";
         }
     }
 }

@@ -54,10 +54,8 @@ namespace CalcWF
             {
                 EntradaDatos.Text = "Operación inválida";
             }
-
-
-
-        }
+        
+    }
 
         private void Buno_Click(object sender, EventArgs e)
         {

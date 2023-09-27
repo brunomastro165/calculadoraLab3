@@ -61,7 +61,6 @@
             this.EntradaDatos.ReadOnly = true;
             this.EntradaDatos.Size = new System.Drawing.Size(326, 99);
             this.EntradaDatos.TabIndex = 0;
-            this.EntradaDatos.Text = "(2*5+2)/(-10+2)";
             this.EntradaDatos.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.EntradaDatos.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -300,7 +299,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(355, 645);
+            this.ClientSize = new System.Drawing.Size(355, 653);
             this.Controls.Add(this.Bbtodo);
             this.Controls.Add(this.Bborrar);
             this.Controls.Add(this.Bigual);
