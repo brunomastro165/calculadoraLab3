@@ -22,7 +22,7 @@ namespace CalcWF
         
         private void agregarDigito(string numero)
         {
-            if (EntradaDatos.Text.Equals("0") || fristTime)
+            if (fristTime)
             {
                 Console.WriteLine(fristTime);
                 EntradaDatos.Text = "";

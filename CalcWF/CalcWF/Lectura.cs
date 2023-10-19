@@ -274,7 +274,7 @@ namespace CalcWF
                 case '-':
                     return num1 - num2;
                 case '/':
-                    if (num1 == 0 || num2 == 0)
+                    if (num2 == 0)
                     {
                         Console.WriteLine("No es posible la división entre 0");
                         throw new ArithmeticException("No es posible la división entre 0");

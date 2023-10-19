@@ -19,3 +19,14 @@ D:\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\obj\Debug\CalcWF.csproj.
 D:\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\obj\Debug\CalcWF.exe
 D:\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\obj\Debug\CalcWF.pdb
 D:\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\obj\Debug\CalcWF.Form1.resources
+D:\Programacion\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\bin\Debug\CalcWF.exe.config
+D:\Programacion\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\bin\Debug\CalcWF.exe
+D:\Programacion\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\bin\Debug\CalcWF.pdb
+D:\Programacion\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\obj\Debug\CalcWF.csproj.AssemblyReference.cache
+D:\Programacion\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\obj\Debug\CalcWF.csproj.SuggestedBindingRedirects.cache
+D:\Programacion\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\obj\Debug\CalcWF.Form1.resources
+D:\Programacion\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\obj\Debug\CalcWF.Properties.Resources.resources
+D:\Programacion\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\obj\Debug\CalcWF.csproj.GenerateResource.cache
+D:\Programacion\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\obj\Debug\CalcWF.csproj.CoreCompileInputs.cache
+D:\Programacion\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\obj\Debug\CalcWF.exe
+D:\Programacion\ProgramasCreados\C#\calculadoraLab3WFG\CalcWF\CalcWF\obj\Debug\CalcWF.pdb
