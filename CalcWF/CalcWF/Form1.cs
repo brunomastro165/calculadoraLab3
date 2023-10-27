@@ -46,16 +46,26 @@ namespace CalcWF
         {
             fristTime = true;
 
-            try
+            
+            if (!EntradaDatos.Text.Contains(",") && !EntradaDatos.Text.Contains("."))
             {
-                EntradaDatos.Text = prueba.ingreso(EntradaDatos.Text);
+                try
+                {
+                    EntradaDatos.Text = prueba.ingreso(EntradaDatos.Text);
+                }
+                catch (Exception exception)
+                {
+                    EntradaDatos.Text = "Operación inválida";
+                }
+ 
             }
-            catch (Exception exception)
+          
+            if (EntradaDatos.Text.Contains(","))
             {
-                EntradaDatos.Text = "Operación inválida";
+                
             }
-        
-    }
+
+        }
 
         private void Buno_Click(object sender, EventArgs e)
         {
